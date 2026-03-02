@@ -1,0 +1,187 @@
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:processDebugNavigationResources
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:parseDebugLocalResources
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugResources
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:processDebugResources
+
+> Task :app:kaptGenerateStubsDebugKotlin
+w: Kapt currently doesn't support language version 2.0+. Falling back to 1.9.
+
+> Task :app:kaptDebugKotlin
+
+> Task :app:compileDebugKotlin FAILED
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/CameraScreen.kt:29:28 Unresolved reference 'ApiService'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/CameraScreen.kt:30:28 Unresolved reference 'CarSpot'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/CameraScreen.kt:42:21 Unresolved reference 'CarSpot'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/CameraScreen.kt:50:20 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/CameraScreen.kt:50:20 Property delegate must have a 'getValue(Nothing?, KProperty0<ERROR CLASS: Cannot infer argument for type parameter T>)' method. None of the following functions is applicable:
+fun <T> State<T>.getValue(thisObj: Any?, property: KProperty<*>): T
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/CameraScreen.kt:50:30 Unresolved reference 'uiState'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/CameraScreen.kt:50:38 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/CameraScreen.kt:82:16 Unresolved reference 'CameraUiState'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/CameraScreen.kt:84:39 Unresolved reference 'CameraUiState'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/CameraScreen.kt:84:62 Unresolved reference 'car'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/CameraScreen.kt:89:27 Unresolved reference 'resetState'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/CameraScreen.kt:91:16 Unresolved reference 'CameraUiState'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/CameraScreen.kt:92:53 Unresolved reference 'CameraUiState'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/CameraScreen.kt:92:74 Unresolved reference 'message'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/CameraScreen.kt:92:102 Unresolved reference 'show'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/CameraScreen.kt:93:27 Unresolved reference 'resetState'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/CameraScreen.kt:169:43 Unresolved reference 'CameraUiState'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/CameraScreen.kt:172:41 Unresolved reference 'CarSpot'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/CameraScreen.kt:180:35 Unresolved reference 'saveCar'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/CameraScreen.kt:183:36 Unresolved reference 'CameraUiState'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaLogin.kt:33:21 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaLogin.kt:33:21 Property delegate must have a 'getValue(Nothing?, KProperty0<ERROR CLASS: Cannot infer argument for type parameter T>)' method. None of the following functions is applicable:
+fun <T> State<T>.getValue(thisObj: Any?, property: KProperty<*>): T
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaLogin.kt:33:31 Unresolved reference 'estadoUi'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaLogin.kt:33:40 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaLogin.kt:36:16 Unresolved reference 'EstadoUiLogin'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaLogin.kt:38:27 Unresolved reference 'reiniciarEstado'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaLogin.kt:40:16 Unresolved reference 'EstadoUiLogin'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaLogin.kt:41:55 Unresolved reference 'EstadoUiLogin'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaLogin.kt:41:76 Unresolved reference 'message'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaLogin.kt:41:104 Unresolved reference 'show'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaLogin.kt:42:27 Unresolved reference 'reiniciarEstado'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaLogin.kt:61:36 Unresolved reference 'EstadoUiLogin'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaLogin.kt:63:27 Unresolved reference 'iniciarSesion'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaLogin.kt:66:29 Unresolved reference 'EstadoUiLogin'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaMapa.kt:53:21 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaMapa.kt:53:21 Property delegate must have a 'getValue(Nothing?, KProperty0<ERROR CLASS: Cannot infer argument for type parameter T>)' method. None of the following functions is applicable:
+fun <T> State<T>.getValue(thisObj: Any?, property: KProperty<*>): T
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaMapa.kt:53:31 Unresolved reference 'estadoUi'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaMapa.kt:53:40 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaMapa.kt:54:40 Unresolved reference 'EstadoUiMapa'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaMapa.kt:55:22 Unresolved reference 'EstadoUiMapa'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaMapa.kt:55:42 Unresolved reference 'coches'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaMapa.kt:57:9 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaMapa.kt:88:26 Overload resolution ambiguity between candidates:
+fun <T> Iterable<T>.forEach(action: (T) -> Unit): Unit
+fun <K, V> Map<out K, V>.forEach(action: (Map.Entry<K, V>) -> Unit): Unit
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaMapa.kt:88:36 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaMapa.kt:90:46 Unresolved reference 'latitud'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaMapa.kt:90:60 Unresolved reference 'longitud'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaMapa.kt:91:37 Unresolved reference 'marca'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaMapa.kt:91:51 Unresolved reference 'nombre'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/PantallaMapa.kt:92:51 Unresolved reference 'usuario'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/data/repository/CarRepository.kt:3:28 Unresolved reference 'CarSpot'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/data/repository/CarRepository.kt:4:28 Unresolved reference 'ApiService'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/data/repository/CarRepository.kt:6:34 Unresolved reference 'CarDao'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/data/repository/CarRepository.kt:11:29 Unresolved reference 'ApiService'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/data/repository/CarRepository.kt:12:25 Unresolved reference 'CarDao'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/data/repository/CarRepository.kt:16:39 Unresolved reference 'CarSpot'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/data/repository/CarRepository.kt:19:41 Unresolved reference 'obtenerCoches'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/data/repository/CarRepository.kt:22:48 Unresolved reference 'it'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/data/repository/CarRepository.kt:23:26 Overload resolution ambiguity between candidates:
+fun <T> Array<out T>.isNotEmpty(): Boolean
+fun BooleanArray.isNotEmpty(): Boolean
+fun ByteArray.isNotEmpty(): Boolean
+fun CharArray.isNotEmpty(): Boolean
+fun DoubleArray.isNotEmpty(): Boolean
+fun FloatArray.isNotEmpty(): Boolean
+fun IntArray.isNotEmpty(): Boolean
+fun LongArray.isNotEmpty(): Boolean
+fun ShortArray.isNotEmpty(): Boolean
+fun <T> Collection<T>.isNotEmpty(): Boolean
+fun <K, V> Map<out K, V>.isNotEmpty(): Boolean
+fun CharSequence.isNotEmpty(): Boolean
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/data/repository/CarRepository.kt:24:24 Unresolved reference 'insertCars'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/data/repository/CarRepository.kt:31:20 Unresolved reference 'getAllCars'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/LoginViewModel.kt:5:28 Unresolved reference 'ApiService'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/LoginViewModel.kt:21:46 Unresolved reference 'ApiService'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/LoginViewModel.kt:29:32 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/LoginViewModel.kt:29:60 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/LoginViewModel.kt:30:32 Unresolved reference 'login'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/LoginViewModel.kt:32:30 Unresolved reference 'isSuccessful'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/MapViewModel.kt:5:28 Unresolved reference 'ApiService'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/MapViewModel.kt:6:28 Unresolved reference 'CarSpot'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/MapViewModel.kt:17:39 Unresolved reference 'CarSpot'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/MapViewModel.kt:21:44 Unresolved reference 'ApiService'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/MapViewModel.kt:29:29 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/MapViewModel.kt:29:57 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/MapViewModel.kt:30:32 Unresolved reference 'obtenerCoches'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/MapViewModel.kt:32:42 Overload resolution ambiguity between candidates:
+fun <T> Array<out T>.filter(predicate: (T) -> Boolean): List<T>
+fun BooleanArray.filter(predicate: (Boolean) -> Boolean): List<Boolean>
+fun ByteArray.filter(predicate: (Byte) -> Boolean): List<Byte>
+fun CharArray.filter(predicate: (Char) -> Boolean): List<Char>
+fun DoubleArray.filter(predicate: (Double) -> Boolean): List<Double>
+fun FloatArray.filter(predicate: (Float) -> Boolean): List<Float>
+fun IntArray.filter(predicate: (Int) -> Boolean): List<Int>
+fun LongArray.filter(predicate: (Long) -> Boolean): List<Long>
+fun ShortArray.filter(predicate: (Short) -> Boolean): List<Short>
+fun <T> Iterable<T>.filter(predicate: (T) -> Boolean): List<T>
+fun <K, V> Map<out K, V>.filter(predicate: (Map.Entry<K, V>) -> Boolean): Map<K, V>
+fun UByteArray.filter(predicate: (UByte) -> Boolean): List<UByte>
+fun UIntArray.filter(predicate: (UInt) -> Boolean): List<UInt>
+fun ULongArray.filter(predicate: (ULong) -> Boolean): List<ULong>
+fun UShortArray.filter(predicate: (UShort) -> Boolean): List<UShort>
+fun <T> Sequence<T>.filter(predicate: (T) -> Boolean): Sequence<T>
+fun CharSequence.filter(predicate: (Char) -> Boolean): CharSequence
+fun String.filter(predicate: (Char) -> Boolean): String
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/MapViewModel.kt:32:51 Unresolved reference 'it'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/ViewModelFactoryHelper.kt:5:28 Unresolved reference 'ApiService'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/ViewModelFactoryHelper.kt:9:34 Unresolved reference 'CarDatabase'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/ViewModelFactoryHelper.kt:13:21 Unresolved reference 'ApiService'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/ViewModelFactoryHelper.kt:13:35 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/ViewModelFactoryHelper.kt:13:35 Not enough information to infer type argument for 'T'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/ViewModelFactoryHelper.kt:13:35 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/ViewModelFactoryHelper.kt:13:35 Property delegate must have a 'getValue(ViewModelFactoryHelper, KProperty1<ViewModelFactoryHelper, ERROR CLASS: Symbol not found for ApiService>)' method. None of the following functions is applicable:
+fun <T> Lazy<T>.getValue(thisRef: Any?, property: KProperty<*>): T
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/ViewModelFactoryHelper.kt:13:35 Not enough information to infer type argument for 'T'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/ViewModelFactoryHelper.kt:13:40 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/ViewModelFactoryHelper.kt:18:14 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/ViewModelFactoryHelper.kt:18:14 Not enough information to infer type argument for 'T'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/ViewModelFactoryHelper.kt:18:21 Unresolved reference 'ApiService'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/ViewModelFactoryHelper.kt:18:21 Argument type mismatch: actual type is 'java.lang.Class<T#2 (type parameter of val <T> KClass<T>.java: Class<T>)>', but 'java.lang.Class<T#1 (type parameter of fun <T : Any!> create(p0: Class<T!>!): T!)!>!' was expected.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/ViewModelFactoryHelper.kt:18:39 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/ViewModelFactoryHelper.kt:18:39 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+val <T> KClass<T>.java: Class<T>
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/ViewModelFactoryHelper.kt:70:30 Unresolved reference 'CarDatabase'.
+e: file:///C:/Users/raul.alumbreros.jann/AndroidStudioProjects/CarDex/app/src/main/java/com/raj/cardex/viewmodel/ViewModelFactoryHelper.kt:72:41 Argument type mismatch: actual type is 'com.raj.cardex.data.repository.CarRepository', but 'com.raj.cardex.data.repositorio.RepositorioCoches' was expected.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 5s
+32 actionable tasks: 10 executed, 22 up-to-date
